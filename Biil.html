@@ -1,0 +1,42 @@
+<html>
+    <header>
+      <h1>Bill Splitter with Tip</h1>
+      <link href="style.css" rel="stylesheet">
+    </header>
+    <body>
+        <div id="container">
+            <div id="calculator">
+                <form>
+                <p>How much was your bill?<p>
+                    $<input id="billamount" type="text" placeholder="Bill Amount">
+                <p>Tip?<p>
+                    <input id="serviceQuality" type="text" placeholder="Tip Percentage"> %
+                <p>How many people are sharing the bill?</p>
+                    <input id="peopleamount" type="text" placeholder="Number of People">
+                </form>
+            </div>  
+            
+            <div>
+                <p>Please enter your paypal.me name below. If you don't have one, Please go to <a href=" https://www.paypal.me/">PayPal.me</a> to create one.</p>
+                <input id="username" type="text" placeholder="PayPal Username">
+            </div>
+            <br>
+            
+            <button type="button" id="calculate">Split!</button>
+    <!--calculator end-->
+            <div id="finalSplit">
+                <sup>$</sup><span id="split">0.00</span>
+                <small id="each">each</small>
+                <br>
+            </div> 
+        </div>
+        <script type="text/javascript" src="Calculator.js"></script>
+
+       <!-- Using https://davidshimjs.github.io/qrcodejs/ 
+            This is a QR code library for javascript
+        -->
+        <script src="qrcode.js"></script>
+        <div style="display: flex; justify-content: center;"id="PaymentRequest"></div> 
+    </body>
+   <footer> <h4>Created by Sharath Jegannathan</h4></footer>
+</html>

@@ -1,0 +1,30 @@
+header{
+  text-align: center;
+  color:black;
+  background-color:limegreen;
+}
+
+body{
+    text-align: center;
+    color: black;
+    background-color: lightyellow;
+    border-style: solid;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-color: black;
+}
+
+h4{
+    position:absolute;
+    width:98.45%;
+    bottom: 0;
+    margin-bottom: 10px;
+    height: 20px;
+    text-align: center;
+    padding-top: 2.5px;
+    color: black;
+    background-color: limegreen;
+    font-weight: normal;
+}
+
+ 
